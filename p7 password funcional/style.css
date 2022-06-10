@@ -1,0 +1,108 @@
+
+html
+{
+    padding: auto;
+}
+
+hr
+{
+    background-color: rgb(0, 17, 255);
+}
+
+#general
+{
+    background-color: rgb(54, 17, 219);
+    text-align: center;
+    margin: auto;
+}
+
+.out
+{
+    background-color: rgb(255, 255, 255);
+    margin-top: -10%;
+    border-color: white;
+    color: white;
+}
+
+
+#id1
+{
+    padding: 1%;
+    border-radius: 15px;
+}
+
+#createbutton
+{
+    padding: 1%;
+    border-radius: 15px;
+    background-color: rgb(21, 29, 165);
+}
+
+#result
+{
+    margin: 2%;
+    color: white;
+}
+
+#label
+{
+    background-color: rgb(21, 29, 165);
+    padding: 1%;
+    color: white;
+    border-radius: 15px;
+}
+
+#eliminatebutton
+{
+    padding: 1%;
+    border-radius: 15px;
+    background-color: rgb(21, 29, 165);
+}
+
+#checkboxes
+{
+    padding: 1%;
+    border-radius: 15px;
+    background-color: rgb(35, 21, 165);
+    color: rgb(246, 242, 233);
+    margin-left: 28%;
+    margin-right: 28%;
+}  
+
+
+#titlediv
+{
+    background-color: rgb(4, 12, 159);
+    margin:auto;
+    padding: 1%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1ch black;
+    color: rgb(255, 255, 255);
+}
+
+#subtitle
+{
+    color: white;
+    background-color: rgb(30, 0, 255);
+}
+
+#title1
+{
+    animation:tittle-scale-movement 5s infinite;
+}
+
+footer
+{
+    position:relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+@keyframes tittle-scale-movement {
+    0% { 
+          transform: scale(1.4);
+      }
+    100% { 
+          transform: scale(0.9);
+      }
+  }

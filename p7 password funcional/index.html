@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password generator</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="general">
+            <header>
+                <div id="titlediv">
+                    <h1 id="title1" class="title">Password generator</h1>
+                </div>
+            </header>
+            <article>
+                <br>
+                <div id="checkboxes">
+                    <p id="subtitle">Advanced options:</p>
+                    <div id="capital letters">
+                        <label for="id2">Capital letters</label>
+                        <input type="checkbox" id="id2" checked>
+                    </div>
+                    <div id="lowercase">
+                        <label for="id3">Lowercase</label>
+                        <input type="checkbox" id="id3" checked>
+                    </div>
+                    <div id="numbers">
+                        <label for="id4">Numbers</label>
+                        <input type="checkbox" id="id4" checked>
+                    </div>
+                    <div id="special symbols">
+                        <label for="id5">Special symbols</label>
+                        <input type="checkbox" id="id5" checked>
+                    </div>
+                </div>
+                <br><br>
+                <label for="id1" id="label" class="out">Large of password></label>
+                <input type="number" id="id1">
+                <br><br><br>
+                <button onclick="generatechars()" id="createbutton" class="out">Create password</button>
+                <button onclick="link()" id="eliminatebutton" class="out">Eliminate</button>
+                <hr>
+                <script src="passw.js"></script>
+                <div id="result"></div>
+            </article>
+            <footer>
+                <h3>In develoment</h3>
+                <br>
+            </footer>
+        </div>
+    </body>
+</html>
